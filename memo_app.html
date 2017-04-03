@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>simple memo</title>
+</head>
+<body onload="onload();">
+	<h1> simple memo </h1>
+	<h3> input the memo </h3>
+
+	<input type="text" id="memo" />
+	<input type="button" id="save" onclick="save_click();" value="save" />
+
+	<script type="text/javascript">
+		var memoList = [];
+		var memo;
+
+		function getMemoTexts(){
+			var result = "";
+			for(var i=0; i < memoList.length; i ++){
+				// console.log(memoList[i].text);
+				// console.log(memoList[i].date);
+				result = result + memoList[i].date.toString() + " " + memoList[i].text + "\n";
+			}
+			return result;
+		}
+
+		function onload() {
+			memo = document.getElementById("memo");
+		}
+
+		function save_click() {
+			var memoObj = new Object();
+			memoObj.date = new Date();
+			memoObj.text = memo.value;
+			memoList.push(memoObj);
+			alert(this.getMemoTexts());
+			memo.value = "";
+		}
+
+	</script>
+
+</body>
+</html>

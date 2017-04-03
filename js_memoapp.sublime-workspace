@@ -1,0 +1,591 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"que",
+				"queuedDuration"
+			],
+			[
+				"isHi",
+				"isHighVideo"
+			],
+			[
+				"isAudio",
+				"isHighAudio"
+			],
+			[
+				"isLow",
+				"isLowAudio"
+			],
+			[
+				"isLo",
+				"isLowAudio"
+			],
+			[
+				"fra",
+				"fragmentInfo"
+			],
+			[
+				"timest",
+				"timestamp2"
+			],
+			[
+				"_en",
+				"_setEnableSubtitleCB"
+			],
+			[
+				"isV",
+				"isVideoFeedLock"
+			],
+			[
+				"isAu",
+				"isAudioFeedLock"
+			],
+			[
+				"sw",
+				"switchToFullscreen"
+			],
+			[
+				"mdcCl",
+				"mdcClient"
+			],
+			[
+				"mdc",
+				"mdcClinet"
+			],
+			[
+				"INCLUDE",
+				"INCLUDE_MDC"
+			],
+			[
+				"MEDIA_LOG",
+				"MEDIA_LOG_VALUE"
+			],
+			[
+				"pix",
+				"pixelHeight"
+			],
+			[
+				"wi",
+				"pixelWidth"
+			],
+			[
+				"con",
+				"convertAmpAudioCodecToDirecMediaAudioCodec"
+			],
+			[
+				"MEDIA_LOG_",
+				"MEDIA_LOG_VALUE"
+			],
+			[
+				"MEDIA",
+				"MEDIA_LOG_ERROR"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"stre",
+				"stream_type"
+			],
+			[
+				"data",
+				"data_len"
+			],
+			[
+				"vi",
+				"videoCodec"
+			],
+			[
+				"pl",
+				"player"
+			],
+			[
+				"gDi",
+				"gDisplayHeight"
+			],
+			[
+				"gHd",
+				"gHdcpMinorVersion"
+			],
+			[
+				"gIS",
+				"gIsHDRSupportedCommandLine"
+			],
+			[
+				"gIsH",
+				"gIsHDRSupportedCommandLineOverride"
+			],
+			[
+				"is",
+				"isStopped"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 221.0,
+		"last_filter": "Package Control: li",
+		"selected_items":
+		[
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/shko/work/js_memoapp"
+	],
+	"file_history":
+	[
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/esplayer-api.cpp",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/message.cpp",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/message.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/amazon_player_directmedia/LGMediaPipeline.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/amazon_player_directmedia/LGMediaConfig.h",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/include/ndl-directmedia2/esplayer-api.h",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/debug.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayer/src/amp/Player.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayer/src/amp/pipeline/PipelineStream.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/state/Control.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/src/amp/media/MediaOutputStreamVideo.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/pipeline/AccessUnitPipeline.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/pipeline/AccessUnitAVC.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/src/amp/ConfigBackend.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/src/amp/ConfigBackendJson.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayer/src/amp/Config.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayer/include/amp/Config.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/media/IMediaOutputStream.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/media/IMediaSyncSource.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/media/MediaOutput.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/media/MediaOutputStreamAudio.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/media/MediaPipelineComponent.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/output/IAudioOutput.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/output/IVideoOutput.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/ConfigBackend.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/ConfigBackendJson.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerBackend/src/amp/ConfigBackendJson.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerBackend/project.py",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerBackend/include/amp/ConfigBackendJson.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/splice/ISpliceInterface.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/splice/ISpliceEventConsumer.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/pipeline/AccessUnitHEVC.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerBackendCommon/include/amp/decrypt/Decryption.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerBackendCommon/include/amp/media/MediaOutputStreamVideoAugmenter.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerBackend/src/amp/Backend.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/amazon_player_directmedia/LGMediaUtil.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/amazon_player_directmedia/LGMediaUtil.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/amazon_player_directmedia/LGMediaPipeline.hpp",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/esplayer.cpp",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/component-mstar.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerBackend/src/amp/ConfigBackend.cpp",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/component.h",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/omx/omxclient.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerBackend/include/amp/ConfigBackend.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/amazon_player_mediapipeline/LGMediaConfig.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/readme.txt",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/src/media/MediaPipeline.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/VideoPlayerFrontend/include/amp/FrontendPlatform.h",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/mockclock.cpp",
+		"/X/work/oe/c2/build-stb/BUILD/work/c2-webos-linux-gnueabi/libndl-directmedia2/1.0.0-44.stb.2-r12/git/src/debug.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/concurrent/IHeuristicJob.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/amazon_player_mediapipeline/LGMediaPipeline.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/amazon_player_directmedia/LGMediaLogger.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/pipeline/VideoAccessUnitPipeline.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/demux/au/EncryptionInfo.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/thread/MediaOutputFeedThread.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/mp4/ParserStateAtomBody.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/Pad/Pad/src/pad/Pad.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/splice/SpliceAccessUnitConsumer.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/AdaptiveStreaming.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/MP4Amp.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/mp4/ParserStateAtomHeader.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/include/core/AssetPipeline.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/src/amp/media/MediaOutputStreamAudio.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerMediaPipelineBackend/include/amp/media/MediaOutputStreamVideo.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFakeBackend/include/amp/thread/MediaOutputFeedThread.h",
+		"/X/work/libndl-directmedia2/include/ndl-directmedia2/esplayer-api.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/VideoPlayer/amazon_player_mediapipeline/LGMediaPipelineLoad.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/pipeline/demux/FragmentDemuxThread.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/pipeline/AssetSourceAdaptiveStreaming.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/mp4/ParserStateAtomSkip.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/pipeline/acquisition/FragmentDownloadThread.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/asap/CachedContentMetadata.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/asap/IContentCache.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/asap/PlaybackCache.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/asap/PlaybackCache.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/AdaptiveStreaming.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/pipeline/VideoAccessUnitPipeline.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/pipeline/AudioAccessUnitPipeline.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/pipeline/AudioAccessUnitPipeline.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/pipeline/acquisition/AcquisitionSmoothStreamingConcurrentAcquisition.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/conductor/IConductable.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/pipeline/IComponent.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/demux/IEncryptedAudioConsumer.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/pipeline/demux/DemuxThreadMP4.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/src/core/BlockingRingBuffer.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/MP4Factory.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/trickplay/DefaultTrickPlayListener.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/IContainer.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/src/core/BlockingDataSource.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/include/profiler/Profiler.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/job/JobAcquireFragment.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/ChunkIterator.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/pipeline/acquisition/AcquisitionSmoothStreaming.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/asap/PlaybackCacheRemovalPolicy.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/asap/PlaybackCacheRemovalPolicy.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/asap/ICacheRemovalPolicy.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/util/Timestamp.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/demux/IVideoConsumer.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/demux/container/adaptivestreaming/Chunk.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/smoothstreaming/ManifestSmoothStreaming.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/include/core/Slice.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/smoothstreaming/ManifestSmoothStreaming.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/smoothstreaming/StreamSmoothStreaming.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/Chunk.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/smoothstreaming/StreamSmoothStreaming.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/demux/container/adaptivestreaming/IStream.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/dash/MP4Dash.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/Stream.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/AudioStreamSelection.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/FragmentInfo.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/include/core/ScopedLog.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/src/core/Log.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/dash/ManifestDash.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/concurrent/policy/HeuristicPolicyStreamLatencyFactor.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/concurrent/policy/HeuristicPolicyConcurrentAcquisition.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/concurrent/Heuristic.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/include/memory/allocator/BlobAndChunkAllocator.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/include/core/Log.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/src/core/ScopedLog.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/include/amp/demux/container/adaptivestreaming/FragmentInfo.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/Core/Core/src/core/DefaultLogConsumer.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp-lg/libs/Core/Core/include/core/Platform.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontendUnitTests/src/tests/amp/demux/container/smoothstreaming/ChunkTest.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/QualityLevel.h",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/smoothstreaming/QualityLevelSmoothStreaming.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/adaptivestreaming/QualityLevel.cpp",
+		"/X/work/ndk_cp/amazon_161122_reference/ruby3.6.3_for_drd4tv3.5/amp/libs/VideoPlayer/VideoPlayerFrontend/src/amp/demux/container/dash/atvplaybackdash/ManifestDashAdapter.h"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"*.cpp, *.h",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"feed video",
+			"adjustMicrosecondToPts",
+			"video render done",
+			"VIDEO_LAG_DELAY_THRESHOLD",
+			"delay",
+			"reference_media_time_",
+			"to big",
+			"getRenderDelay",
+			"delay",
+			"VIDEO_LAG_DELAY_THRESHOLD",
+			"delay",
+			"VIDEO_LAG_DELAY_THRESHOLD",
+			"delay",
+			"VIDEO_DROP_THRESHOLD",
+			"delay",
+			"sdet",
+			"delay",
+			"getRenderDelay",
+			"timestamp",
+			"pts",
+			"000",
+			"1000",
+			"VIDEO_LAG_DELAY_THRESHOLD",
+			"1000",
+			"media_times_",
+			"pts_units_",
+			"USE_MICRO_SEC_FOR_FEED",
+			"DELAY_ON_VIDEO_ONLY_RENDER",
+			"1000",
+			"reference_wall_time_",
+			"tola",
+			"Metadata",
+			"connectOutputComponent",
+			"output_buffer_count_",
+			"_SLEEP10msec",
+			"WAIT_TIMER",
+			"_nanoSleepTimeForSync",
+			"LG_NANO_SLEEP_TIME_FOR_FEED",
+			"BLOCK",
+			"AVFEED_BLOCK",
+			"block",
+			"ishigh",
+			"highvi",
+			"LG_FEED_WAIT_TIME",
+			"isHighVideo",
+			"LG_FEED_WAIT_TIME",
+			"isHighVideo",
+			"f",
+			"isHighVideo",
+			"_esplayer_callback",
+			"_nanoSleepTimeForFeed",
+			"LG_NANO_SLEEP_TIME_FOR_FEED",
+			"_nanoSleepTimeForFeed",
+			"_esplayer_callback",
+			"getMillisecondsFromTimer",
+			"getMicrosecondsFromTimer",
+			"kParamMaxVideoAccessUnitSize",
+			"syncAdjust",
+			"EmptyBufferDone",
+			"bufferingThreshold",
+			"numVideoFrames",
+			"bufferingThreshold",
+			"LG_CURRENT_TIME_OFFSET",
+			"LG_MIN_BUFFER_THRESHOLD",
+			"LG_CURRENT_TIME_OFFSET",
+			"LG_FRAGMENT_DOWNLOAD_DOWNSHIFT_FACTOR_TIMES",
+			"LG_BACKEND_BUFFERING_THRESHOLD",
+			"LG_MIN_BUFFER_THRESHOLD",
+			"video_renderer_looper_",
+			"video_message_looper_",
+			"video_renderer_looper_",
+			"rescheduleRenderMessage",
+			"timestamp_",
+			"time_stamp_",
+			"video_renderer_looper_",
+			"run_at",
+			"name",
+			"fillBufferDone",
+			"onVideoCodecCallback",
+			"buf",
+			"is_video_dropped_",
+			"shko test",
+			"LG_NANO_SLEEP_TIME_FOR_DROP",
+			"_nanoSleepTimeForDrop",
+			"WAIT_TIMER",
+			"_nanoSleepTimeForSync",
+			"LG_PLAY_START_OFFSET",
+			"_nanoSleepTimeForSync",
+			"_nanoSleepTimeForFeed",
+			"shko test",
+			"_nanoSleepTimeForFeed",
+			"isHighAudio",
+			"isStopped",
+			"_nanoSleepTimeForFeed",
+			"isBreak",
+			"shko test",
+			"doWhileFeed",
+			"_esplayer_callback",
+			"AUDIO_FEED_BLOCK",
+			"LG_FEED_PTS_DIFF",
+			"eosPts",
+			"lastVideoPts",
+			"_checkFeedReturnBufferFull",
+			"_errorAmazonCallback",
+			"_errorAmazonUserData",
+			"_errorAmazonCallback",
+			"lastAudioPts",
+			"_mutexOfAVthreshold",
+			"lastAudioPts",
+			"pause",
+			"isWaitPlayer",
+			"LGMEDIAPIPELINE_Flush",
+			"flush",
+			"_SLEEP100msec",
+			"_SLEEP50msec",
+			"BLOCK_TIMEOUT_5000MSEC",
+			"AVFEED_BLOCK",
+			"_SLEEP10msec",
+			"nano",
+			"getAudioUnit",
+			"_ptsMicroData_seek",
+			"AVFEED_BLOCK",
+			"PLAYING_BLOCK",
+			"VIDEO_FEED_BLOCK",
+			"isHighAudio",
+			"AUDIO_FEED_BLOCK",
+			"isHighAudio",
+			"BLOCK_TIMEOUT_1000MSEC"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_mutexOfAVthreshold",
+			"_ptsMicroData_seek",
+			"ptsMicroSec",
+			"_convertMicroSec",
+			"STATUS_INIT",
+			"_printNdlDirectMedia2Error",
+			"_convertAmpAudioCodecToDirecMediaAudioCodec",
+			"_convertAmpVideoCodecToDirecMediaVideoCodec",
+			"_esplayer_callback",
+			"_pRubyConfigContext",
+			"_pSvpContext",
+			"_ignitionAppIDArray",
+			"_ctrVideoInfo",
+			"_mdcClient",
+			"in_pRubyConfigContext",
+			"_pRubyConfigContext",
+			"_pSvpContext",
+			"_ignitionAppIDArray",
+			"_ctrVideoInfo",
+			"printNdlDirectMedia2Error"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 178.0
+	},
+	"pinned_build_system": "",
+	"project": "js_memoapp.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"config.cpp",
+				"amazon_161122_reference\\ruby3.6.3_for_drd4tv3.5\\amp\\libs\\VideoPlayer\\VideoPlayer\\src\\amp\\Config.cpp"
+			],
+			[
+				"lgme",
+				"ruby3.6.3_for_drd4tv3.5\\amp-lg\\libs\\VideoPlayer\\amazon_player_mediapipeline\\LGMediaConfig.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 37.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 352.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
