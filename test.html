@@ -1,63 +1,120 @@
-<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			html{border:5px solid red;padding:30px;}
+			body{border:5px solid green;padding:30px;}
+			fieldset{border:5px solid blue;padding:30px;}
+			input{border:5px solid black;padding:30px;}
+		</style>
+	</head>
+	<body>
+		<fieldset>
+			<legend>event propagation</legend>
+			<input type="button" id="target" value="target">
+		</fieldset>
+		<script>
+			function handler(event){
+				var phases = ['capturing', 'target', 'bubbling']
+				console.log(event.target.nodeName, this.nodeName, phases[event.eventPhase-1]);
+			}
+			function stophandler(event){
+				var phases = ['capturing', 'target', 'bubbling']
+				console.dir(event);
+				console.log(event.target.nodeName, this.nodeName, phases[event.eventPhase-1]);
+				event.stopPropagation();
+			}
+
+			document.getElementById('target').addEventListener('click', handler, false);
+			document.querySelector('fieldset').addEventListener('click', handler, false);
+			document.querySelector('body').addEventListener('click', stophandler, false);
+			document.querySelector('html').addEventListener('click', handler, false);
+		</script>
+	</body>
+</html>
+
+
+
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
 </head>
 <body>
-	<ul>
-		<script type="text/javascript">
-			/*
-				function test(arg1){
-					alert(arg1);
-				}
-				test(1);
+	<input type="button" id="target" value="button"/>
 
-				var a = function(arg1){
-					alert(arg1);
-				}
-				a(2);
+	<script type="text/javascript">
 
-				(function(arg1){
-					alert(arg1);
-				})(3);
+		var t = document.getElementById('target');
+		t.onclick = function(event){
+			console.dir(event);
+			alert('Hello world, '+ event.target.value)
+		}
 
-				function get_members(){
-					return ['egoing', 'k8805', 'sorialgi'];
-				}
-				members = get_members();
-				// members.length는 배열에 담긴 값의 숫자를 알려준다.
-				for(i = 0; i < members.length; i++){
-					// members[i].toUpperCase()는 members[i]에 담긴 문자를 대문자로 변환해준다.
-					document.write(members[i].toUpperCase());
-					document.write('<br />');
-				}
+		// console.group('before');
+		// var lis = document.getElementsByTagName('li');
+		// for(var i = 0; i < lis.length; i++){
+		// 	console.log(lis[i]);
+		// }
+		// console.groupEnd();
+		// console.group('after');
+		// lis[1].parentNode.removeChild(lis[1]);
+		// for(var i= 0; i < lis.length; i++){
+		// 	console.log(lis[i]);
+		// }
+		// console.groupEnd();
 
-			var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80};
+		/*
+			function test(arg1){
+				alert(arg1);
+			}
+			test(1);
 
-			for(key in grades) {
-				document.write("<li> key : " + key + ", value : " + grades[key] + "</li>");
+			var a = function(arg1){
+				alert(arg1);
+			}
+			a(2);
+
+			(function(arg1){
+				alert(arg1);
+			})(3);
+
+			function get_members(){
+				return ['egoing', 'k8805', 'sorialgi'];
+			}
+			members = get_members();
+			// members.length는 배열에 담긴 값의 숫자를 알려준다.
+			for(i = 0; i < members.length; i++){
+				// members[i].toUpperCase()는 members[i]에 담긴 문자를 대문자로 변환해준다.
+				document.write(members[i].toUpperCase());
+				document.write('<br />');
 			}
 
-			var grades = {
-				'list': {'egoing': 10, 'k8805': 6, 'sorialgi': 80},
-				'show': function(){
-					for(var name in this.list){
-						document.write(name + ':' + this.list[name] + "<br />");
-						console.log(this.list[name]);
-					}
-				},
-				'show2': (function(arg1){
-					alert(arg1);
-				})(999)
-			};
-			// grades['show']();
-			grades.show();
-			alert(grades.list.egoing);
-			alert(grades['list']['k8805']);
-			*/
+		var grades = {'egoing': 10, 'k8805': 6, 'sorialgi': 80};
+
+		for(key in grades) {
+			document.write("<li> key : " + key + ", value : " + grades[key] + "</li>");
+		}
+
+		var grades = {
+			'list': {'egoing': 10, 'k8805': 6, 'sorialgi': 80},
+			'show': function(){
+				for(var name in this.list){
+					document.write(name + ':' + this.list[name] + "<br />");
+					console.log(this.list[name]);
+				}
+			},
+			'show2': (function(arg1){
+				alert(arg1);
+			})(999)
+		};
+		// grades['show']();
+		grades.show();
+		alert(grades.list.egoing);
+		alert(grades['list']['k8805']);
+		*/
 
 
-		</script>
-	</ul>
+	</script>
+
 </body>
-</html>
+</html> -->
