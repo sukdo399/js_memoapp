@@ -1,12 +1,12 @@
 var memoList = [];
 var memo;
 
-window.onload = function(){
+window.addEventListener('DOMContentLoaded', function(){
 	memo = document.getElementById("memo");
 
 	var save_button = document.getElementById('save');
 	save_button.addEventListener('click', save_click);
-}
+});
 
 function getMemoTexts(){
 	var result = "";

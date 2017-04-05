@@ -1,33 +1,37 @@
 <html>
 	<head>
-		<style>
-			html{border:5px solid red;padding:30px;}
-			body{border:5px solid green;padding:30px;}
-			fieldset{border:5px solid blue;padding:30px;}
-			input{border:5px solid black;padding:30px;}
-		</style>
 	</head>
 	<body>
-		<fieldset>
-			<legend>event propagation</legend>
-			<input type="button" id="target" value="target">
-		</fieldset>
+		<div id="qunit"></div>
+		<div id="qunit-fixture"></div>
+		<p id="target1"><span>Hello world</span></p>
+		<p id="target2">
+			<span>Hello world</span>
+		</p>
+		<p id="target3">
+			<span></span>
+			<span>Hello world</span>
+		</p>
+		<p id="target4">
+			<span>Hello world</span>
+			<p></p>
+		</p>
 		<script>
-			function handler(event){
-				var phases = ['capturing', 'target', 'bubbling']
-				console.log(event.target.nodeName, this.nodeName, phases[event.eventPhase-1]);
-			}
-			function stophandler(event){
-				var phases = ['capturing', 'target', 'bubbling']
-				console.dir(event);
-				console.log(event.target.nodeName, this.nodeName, phases[event.eventPhase-1]);
-				event.stopPropagation();
+			function getTextValue(element){
+				for(var i=0; i<element.childNodes.length; i++){
+					if(element.childNodes[i].nodeType === Node.ELEMENT_NODE && element.childNodes[i].tagName === "SPAN" && element.childNodes[i].innerText !== "")
+					{
+						return element.childNodes[i].innerText
+					}
+				}
+				return "";
 			}
 
-			document.getElementById('target').addEventListener('click', handler, false);
-			document.querySelector('fieldset').addEventListener('click', handler, false);
-			document.querySelector('body').addEventListener('click', stophandler, false);
-			document.querySelector('html').addEventListener('click', handler, false);
+			var eleIds = ['#target1', '#target2', '#target3', '#target4']
+			for(eleId in eleIds){
+				var text = getTextValue(document.querySelector(eleIds[eleId]));
+				console.log(text);
+			}
 		</script>
 	</body>
 </html>
