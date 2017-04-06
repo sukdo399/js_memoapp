@@ -1,4 +1,56 @@
 <html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+
+  $(document).ready(function(){
+    $('p:eq(1)').on({
+      "mouseover":function(){$(this).toggleClass("toggleStyle");},
+      "mouseout":function(){$(this).toggleClass("toggleStyle");}
+    });
+
+    $('#btn1').click(function(){
+    	$('li:eq(0)').after("<li>Middle list</li>");
+    });
+
+    $('ul').on({
+    	"click": function(){alert('123');}
+    });
+
+    $('#btn2').click(function(){
+    	$('ul').off();
+    });
+
+
+  })
+
+</script>
+<style>
+.toggleStyle {
+    font-size: 120%;
+    color: blue;
+}
+</style>
+
+<body>
+
+<div class="a">
+<ul>
+<li>First list</li>
+<li id="last">Last list</li>
+</ul>
+</div>
+
+<p>Fixed color paragraph.</p>
+<p>Color changed paragraph.</p>
+<p>Fixed color paragraph.</p>
+<button id="btn1">Insert a new list item</button>
+<button id="btn2">Remove alert event when clicking a list</button>
+
+</body>
+</html>
+
+
+<!-- <html>
 	<head>
 	</head>
 	<body>
@@ -35,7 +87,7 @@
 		</script>
 	</body>
 </html>
-
+ -->
 
 
 <!-- <!DOCTYPE html>
