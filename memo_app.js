@@ -1,30 +1,68 @@
-var memoList = [];
+var url = "";
+// TODO: get from login method.
+var username = "";
 
-window.addEventListener('DOMContentLoaded', function(){
+$(document).ready(function() {
 	$("#save").click(save_click);
+
+	$.ajax({
+		url: url + username + '/notes',
+		dataType: 'json',
+		type: 'GET',
+		data: {},
+		success: function(result){
+			for(var i = 0 ; i < result['results'].length; i++){
+
+				// TODO: remove duplicated code...
+				// addmemoTable(result['results'][i]);
+
+				$("#memo_table").find('tbody')
+				.append($('<tr>')
+					.append($('<td>')
+						.html(result['results'][i].date)
+					)
+					.append($('<td>')
+						.html(result['results'][i].note)
+					)
+					.append($('<td>')
+						.append($('<input>')
+							.attr('type', 'button')
+							.attr('value', 'delete')
+							.attr('id', result['results'][i].id)
+							.attr('onclick', 'deleteMemo(this)')
+						)
+					)
+				);
+			}
+		},
+		error: function(result){
+			alert('load error');
+		}
+	});
 });
 
 function deleteMemo(node){
-	var del_uid = node.getAttribute('uid');
-	$("input[uid="+del_uid+"]").parent().parent().empty();
+	var del_id = node.getAttribute('id');
 
-	var memoObj = memoList.filter(function ( obj ) {
-		return obj.uid.toString() === del_uid;
-	})[0];
-	// console.dir(memoObj);
-	var index = memoList.indexOf(memoObj);
-	if (index > -1) {
-		memoList.splice(index, 1);
-	}
+	$.ajax({
+		url: url + username + '/notes/' + del_id,
+		dataType: 'json',
+		type: 'DELETE',
+		data: {},
+		success: function(result){
+			$("input[id=" + del_id +"]").parent().parent().empty();
+		},
+		error: function(result){
+			alert('delete error');
+		}
+	});
+
 }
 
-function addMemoTable(){
-	var memoObj = memoList[memoList.length-1];
-
-	var uid = memoObj.uid;
-	var date = memoObj.date.getDate()  + "-" + (memoObj.date.getMonth()+1) + "-" + memoObj.date.getFullYear() + " " +
-memoObj.date.getHours() + ":" + memoObj.date.getMinutes() + ":" + memoObj.date.getSeconds();
-	var text = memoObj.text;
+function addMemoTable(memoResult){
+	var id = memoResult['results'][0].id;
+	var date = memoResult['results'][0].date;
+	var note = memoResult['results'][0].note;
 
 	$("#memo_table").find('tbody')
 	.append($('<tr>')
@@ -32,13 +70,13 @@ memoObj.date.getHours() + ":" + memoObj.date.getMinutes() + ":" + memoObj.date.g
 			.html(date)
 		)
 		.append($('<td>')
-			.html(text)
+			.html(note)
 		)
 		.append($('<td>')
 			.append($('<input>')
 				.attr('type', 'button')
 				.attr('value', 'delete')
-				.attr('uid', uid)
+				.attr('id', id)
 				.attr('onclick', 'deleteMemo(this)')
 			)
 		)
@@ -46,13 +84,25 @@ memoObj.date.getHours() + ":" + memoObj.date.getMinutes() + ":" + memoObj.date.g
 }
 
 function save_click() {
-	var memoObj = new Object();
-	date = new Date();
-	// assume that date.valueOf() is "most likely" a unique number
-	memoObj.uid = date.valueOf();
-	memoObj.date = date;
-	memoObj.text = memo.value;
-	memoList.push(memoObj);
-	memo.value = "";
-	addMemoTable();
+	var date = new Date();
+	var dateString = date.getDate()  + "-" + (date.getMonth()+1) + "-" + date.getFullYear() + " " + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+	var id = date.valueOf();
+
+	$.ajax({
+		url: url + username + '/notes',
+		dataType: 'json',
+		type: 'POST',
+		data: {
+			id: id,
+			note: memo.value,
+			date: dateString,
+		},
+		success: function(result){
+			memo.value = "";
+			addMemoTable(result);
+		},
+		error: function(result){
+			alert('save error');
+		}
+	});
 }
